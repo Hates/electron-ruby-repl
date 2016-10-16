@@ -73,7 +73,6 @@ const runRuby = (input) => {
       });
     }
   });
-
 };
 
 exports.runRuby = runRuby;

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>rubyrepl</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="stylesheets/application.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- columns should be the immediate child of a .row -->
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+              <textarea class="form-control ruby-input" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary pull-right run-ruby">Run</button>
+        </div>
+        <div class="col-sm-6 ruby-output">
+        </div>
+      </div>
+    </div>
+    <script>
+      require('./renderer');
+    </script>
+  </body>
+</html>

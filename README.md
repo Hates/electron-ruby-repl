@@ -1,3 +1,3 @@
 # Electron Ruby Repl
 
-![Screenshot](screenshot.png)
+![Screenshot](repl.png)
